@@ -4,25 +4,25 @@ This repository contains the MovieFinder application. Below are the instructions
 
 To run this project locally, follow these steps:
 
-Clone the repository:
+1.) Clone the repository:
 
-git clone https://github.com/karlomoslavac/MovieFinder.git
+# git clone https://github.com/karlomoslavac/MovieFinder.git
 
-cd MovieFinder
-
-
-Build and start the application using Docker Compose:
-
-docker-compose up --build
+# cd MovieFinder
 
 
-Access the application:
+2.) Build and start the application using Docker Compose:
 
-Open your browser and go to http://localhost:3000.
+# docker-compose up --build
 
 
-Stop the application:
+3.) Access the application:
+
+# Open your browser and go to http://localhost:3000
+
+
+4.) Stop the application:
 
 To stop the application, use the following command:
 
-docker-compose down
+# docker-compose down
